@@ -1,0 +1,9 @@
+#include<stdio.h>
+#define LITTLEENDIAN 1
+#define BIGENDIAN 0
+int main()
+{
+  short int word=0x001;
+  char *ptr=(char *)&word;
+  return (ptr?)
+}
