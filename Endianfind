@@ -5,5 +5,5 @@ int main()
 {
   short int word=0x001;
   char *ptr=(char *)&word;
-  return (ptr?)
+  return (ptr?LITTLEENDIAN:BIGENDIAN);
 }
